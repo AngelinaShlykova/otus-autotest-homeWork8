@@ -1,0 +1,22 @@
+# Postman
+postman/backup/
+*.postman_snapshot
+
+# Environment files with secrets
+*.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test results
+newman/
+results/
+*.xml
+*.html
